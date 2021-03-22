@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+header {
+  width: 100%;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: calc(2rem + 25px);
+  text-align: center;
+  background: royalblue;
+  position: relative;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: calc(30px + 2rem) auto;
+}
+@media screen and (max-width:767px) {
+  main {
+    width: calc(100% - 3rem);
+  }
+}
+.show {
+  display: flex;
+}
