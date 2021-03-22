@@ -56,9 +56,6 @@ class Modal extends HTMLElement {
         .modal button:active {
           background: rgba(0,0,0,0)
         }
-        @media screen and (min-width:768px) {
-          
-        }
       </style>
      
       <div class="modal">
